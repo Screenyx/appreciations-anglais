@@ -1,0 +1,27 @@
+import type { Profil } from '@/types'
+
+export const DEFAULT_PROFILS: Profil[] = [
+  {key:"excellent",label:"Excellent·e",active:true},
+  {key:"bien",label:"Bon niveau",active:true},
+  {key:"moyen",label:"Peut mieux faire",active:true},
+  {key:"faible",label:"En difficulté",active:true},
+  {key:"travailleur",label:"Travailleur·se",active:true},
+  {key:"oral",label:"À l'oral",active:true},
+  {key:"ecrit",label:"À l'écrit",active:true},
+  {key:"passif",label:"Passif·ve",active:true},
+  {key:"encourage",label:"Encouragements",active:true},
+  {key:"problematique",label:"Problématique",active:true},
+  {key:"discret_serieux",label:"Discret·e mais sérieux·se",active:true},
+  {key:"bavard_competent",label:"Bavard·e mais compétent·e",active:true},
+  {key:"defaitiste",label:"Défaitiste",active:true},
+  {key:"moteur_implique",label:"Moteur·rice et impliqué·e",active:true},
+  {key:"participe_pertinent",label:"Participation régulière et pertinente",active:true},
+  {key:"bon_participation_a_parfaire",label:"Bon niveau, participation à parfaire",active:true},
+  {key:"actif_irregulier",label:"Actif·ve mais irrégulier·ère",active:true},
+  {key:"moteur_impatient",label:"Moteur·rice mais parfois impatient·e",active:true},
+  {key:"monopolise_parole",label:"Très impliqué·e, tend à monopoliser la parole",active:true},
+  {key:"participatif_discret",label:"Participatif·ve mais parfois trop discret·e",active:true},
+  {key:"ecrit_reserve_oral",label:"Engagé·e à l'écrit, réservé·e à l'oral",active:true},
+  {key:"manque_confiance",label:"Participe bien mais manque de confiance",active:true},
+  {key:"moteur_precision",label:"Moteur·rice, à progresser sur la précision",active:true},
+]

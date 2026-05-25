@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #1a1a2e;
+  --paper: #f7f5f0;
+  --accent: #c8553d;
+  --accent2: #4a7c59;
+  --accent3: #2e5fa3;
+  --accent4: #8b4a8b;
+  --muted: #8a8580;
+  --border: #ddd9d0;
+  --card: #ffffff;
+  --tag-bg: #eee9e0;
+  --c6: #7c6a2e;
+  --c4: #2e7c6a;
+  --c3: #6a2e7c;
+}
+
+.dark-mode {
+  --ink: #e8e4dc;
+  --paper: #0f0f1a;
+  --card: #181828;
+  --border: #2a2a3e;
+  --tag-bg: #1e1e30;
+  --muted: #6a6880;
+  --accent: #e0604a;
+  --accent2: #5a9b6f;
+  --accent3: #4a7fd4;
+  --accent4: #a865a8;
+  --c6: #c9a84c;
+  --c4: #4aad94;
+  --c3: #9a5abf;
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+.font-serif { font-family: 'DM Serif Display', serif; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-4px); }
+  40%, 80% { transform: translateX(4px); }
+}
+.shake { animation: shake 0.35s ease; }
