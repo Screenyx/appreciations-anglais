@@ -15,6 +15,7 @@
   --border: #ddd9d0;
   --card: #ffffff;
   --tag-bg: #eee9e0;
+  --copied-bg: #eef7f0;
   --c6: #7c6a2e;
   --c4: #2e7c6a;
   --c3: #6a2e7c;
@@ -31,12 +32,16 @@
   --accent2: #5a9b6f;
   --accent3: #4a7fd4;
   --accent4: #a865a8;
+  --copied-bg: #142820;
   --c6: #c9a84c;
   --c4: #4aad94;
   --c3: #9a5abf;
 }
 
 * { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--paper);
@@ -45,6 +50,21 @@ body {
 }
 
 .font-serif { font-family: 'DM Serif Display', serif; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: rgba(200, 85, 61, 0.18);
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
