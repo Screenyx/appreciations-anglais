@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fef6f0;
+  --surface: #ffffff;
+  --border: #fce4ec;
+  --text: #2c1810;
+  --text-muted: #a07080;
+  --accent: #e8498a;
+  --accent-light: #fdf0f7;
+  --accent-hover: #cf2d6f;
+  --tag-bg: #fdf4ff;
+  --tag-selected: #fce4f0;
+  --tag-selected-text: #b5174a;
+}
+
+body {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(249, 168, 212, 0.18) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(196, 181, 253, 0.14) 0%, transparent 45%),
+    radial-gradient(circle at 65% 25%, rgba(134, 239, 172, 0.1) 0%, transparent 35%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+}
