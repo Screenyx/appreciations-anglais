@@ -1,33 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --ink: #1a1a2e;
-  --paper: #f7f5f0;
+  --ink: #16162a;
+  --paper: #f4f2ee;
   --accent: #c8553d;
   --accent2: #4a7c59;
   --accent3: #2e5fa3;
   --accent4: #8b4a8b;
-  --muted: #8a8580;
-  --border: #ddd9d0;
+  --muted: #8c8780;
+  --border: #e2ddd5;
   --card: #ffffff;
-  --tag-bg: #eee9e0;
-  --copied-bg: #eef7f0;
+  --tag-bg: #ebe7df;
+  --copied-bg: #f0f7f3;
   --c6: #7c6a2e;
   --c4: #2e7c6a;
   --c3: #6a2e7c;
+
+  --sh-xs: 0 1px 3px rgba(0,0,0,.05);
+  --sh-sm: 0 2px 8px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.04);
+  --sh-md: 0 4px 20px rgba(0,0,0,.09), 0 2px 6px rgba(0,0,0,.05);
+  --sh-lg: 0 12px 40px rgba(0,0,0,.12), 0 4px 12px rgba(0,0,0,.06);
+  --sh-xl: 0 24px 60px rgba(0,0,0,.16), 0 8px 20px rgba(0,0,0,.07);
 }
 
 .dark-mode {
   --ink: #e8e4dc;
-  --paper: #0f0f1a;
-  --card: #181828;
-  --border: #2a2a3e;
-  --tag-bg: #1e1e30;
-  --muted: #6a6880;
+  --paper: #0e0e1a;
+  --card: #15152a;
+  --border: #222236;
+  --tag-bg: #1a1a2e;
+  --muted: #6a6882;
   --accent: #e0604a;
   --accent2: #5a9b6f;
   --accent3: #4a7fd4;
@@ -39,14 +45,14 @@
 }
 
 * { box-sizing: border-box; }
-
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
 
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--paper);
   color: var(--ink);
   min-height: 100vh;
+  transition: background .25s, color .25s;
 }
 
 .font-serif { font-family: 'DM Serif Display', serif; }
@@ -57,13 +63,11 @@ body {
   border-radius: 4px;
 }
 
-::selection {
-  background: rgba(200, 85, 61, 0.18);
-}
+::selection { background: rgba(200,85,61,.18); }
 
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: var(--paper); }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
 @keyframes shake {
@@ -72,3 +76,28 @@ body {
   40%, 80% { transform: translateX(4px); }
 }
 .shake { animation: shake 0.35s ease; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: .35; transform: scale(.65); }
+}
+
+/* Spring modal entrance */
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(20px) scale(.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Toast spring */
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(10px) scale(.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes toast-out {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to   { opacity: 0; transform: translateY(6px) scale(.97); }
+}
