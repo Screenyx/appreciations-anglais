@@ -528,6 +528,157 @@ export const APPRECIATIONS: Appreciation[] = [
   { id: 314, text: "Moteur·rice indéniable, l'élève enrichit les échanges. Travailler la rigueur à l'écrit permettrait de compléter ce beau profil.", profiles: ["Moteur·rice, à progresser sur la précision", "À l'écrit"], classes: ALL, trimesters: T3 },
   { id: 315, text: "Un·e élève sérieux·se, à l'aise à l'écrit et progressant bien à l'oral. La confiance en soi gagne du terrain : bonne nouvelle pour la suite !", profiles: ["Engagé·e à l'écrit, réservé·e à l'oral", "Participe bien mais manque de confiance"], classes: ALL, trimesters: T3 },
   { id: 316, text: "Une belle progression visible en ce troisième trimestre. Parti·e d'une position difficile, l'élève termine l'année avec de vrais acquis et un état d'esprit positif.", profiles: ["Encouragements", "En difficulté"], classes: ALL, trimesters: T3 },
+
+  // ══ MONO-PROFILS — IDs 317–366 ══════════════════════════════════════════════
+
+  // ── Excellent·e ──────────────────────────────────────────────────────────────
+  { id: 317, text: "Dès le premier trimestre de lycée, l'élève affiche un niveau d'anglais remarquable. La transition du collège est parfaitement réussie.", profiles: ["Excellent·e"], classes: LYCEE, trimesters: T1 },
+  { id: 318, text: "Ce deuxième trimestre confirme un niveau tout à fait exceptionnel. La maîtrise de la grammaire, du vocabulaire et de la syntaxe est impressionnante.", profiles: ["Excellent·e"], classes: ALL, trimesters: T2 },
+  { id: 319, text: "Un bilan de 3ème brillant. L'élève aborde le lycée avec un niveau d'anglais et des atouts indéniables.", profiles: ["Excellent·e"], classes: ["3ème"], trimesters: T3 },
+
+  // ── Bon niveau ───────────────────────────────────────────────────────────────
+  { id: 320, text: "Bonne entrée dans l'année au collège. L'élève dispose de bases solides et d'une réelle volonté de progresser.", profiles: ["Bon niveau"], classes: COLLEGE, trimesters: T1 },
+  { id: 321, text: "En première, l'élève maintient un bon niveau d'anglais. Les exigences du cycle terminal sont abordées avec sérieux.", profiles: ["Bon niveau"], classes: ["1ère"], trimesters: ALL },
+  { id: 322, text: "Bilan de fin d'année positif. Les compétences sont bien ancrées et les résultats réguliers confirment un niveau tout à fait satisfaisant.", profiles: ["Bon niveau"], classes: ALL, trimesters: T3 },
+
+  // ── Peut mieux faire ─────────────────────────────────────────────────────────
+  { id: 323, text: "Début d'année décevant au lycée. Les exigences du cycle sont plus élevées et un investissement plus important est désormais indispensable.", profiles: ["Peut mieux faire"], classes: LYCEE, trimesters: T1 },
+  { id: 324, text: "Le deuxième trimestre ne traduit toujours pas les réelles capacités de l'élève. Un sursaut est encore possible : il ne faut plus attendre.", profiles: ["Peut mieux faire"], classes: ALL, trimesters: T2 },
+  { id: 325, text: "En 6ème, les bases sont à consolider rapidement. Sans un travail plus régulier, les lacunes risquent de s'installer durablement.", profiles: ["Peut mieux faire"], classes: ["6ème"], trimesters: ALL },
+
+  // ── En difficulté ────────────────────────────────────────────────────────────
+  { id: 326, text: "Les difficultés se confirment en 4ème. Un travail de remédiation ciblé, notamment sur la grammaire et le vocabulaire, est indispensable.", profiles: ["En difficulté"], classes: ["4ème"], trimesters: T2 },
+  { id: 327, text: "Fin d'année difficile pour cet·te élève de lycée. Un travail intensif de révision pendant l'été est fortement conseillé.", profiles: ["En difficulté"], classes: LYCEE, trimesters: T3 },
+  { id: 328, text: "Dès ce premier trimestre, des difficultés importantes sont identifiées. Il faut réagir sans attendre pour ne pas accumuler les lacunes.", profiles: ["En difficulté"], classes: ALL, trimesters: T1 },
+
+  // ── Travailleur·se ────────────────────────────────────────────────────────────
+  { id: 329, text: "En 5ème, l'élève fait preuve d'un sérieux exemplaire. Ce travail régulier construit des bases solides pour la suite du collège.", profiles: ["Travailleur·se"], classes: ["5ème"], trimesters: ALL },
+  { id: 330, text: "Le deuxième trimestre confirme un investissement sans faille. La persévérance de cet·te élève est une vraie qualité à saluer.", profiles: ["Travailleur·se"], classes: ALL, trimesters: T2 },
+  { id: 331, text: "Fin de terminale couronnée par un travail acharné. L'élève aborde le baccalauréat avec la sérénité que mérite cet engagement.", profiles: ["Travailleur·se"], classes: TERM, trimesters: T3 },
+
+  // ── À l'oral ──────────────────────────────────────────────────────────────────
+  { id: 332, text: "En 4ème, l'aisance orale de l'élève est déjà remarquable pour le niveau. Les échanges en anglais sont spontanés et fluides.", profiles: ["À l'oral"], classes: ["4ème"], trimesters: ALL },
+  { id: 333, text: "Fin de lycée brillante à l'oral. L'élève s'exprime avec une fluidité et une assurance qui témoignent d'un travail de fond sur la langue.", profiles: ["À l'oral"], classes: LYCEE, trimesters: T3 },
+
+  // ── À l'écrit ─────────────────────────────────────────────────────────────────
+  { id: 334, text: "À l'approche du brevet, les productions écrites de l'élève sont de très bonne qualité. Un vrai atout pour les épreuves à venir.", profiles: ["À l'écrit"], classes: ["3ème"], trimesters: T3 },
+  { id: 335, text: "Dès le premier trimestre, la qualité des écrits se distingue. L'élève soigne ses productions avec une rigueur exemplaire.", profiles: ["À l'écrit"], classes: ALL, trimesters: T1 },
+
+  // ── Passif·ve ─────────────────────────────────────────────────────────────────
+  { id: 336, text: "L'entrée au lycée demande une implication plus active. La passivité observée en 2nde risque de peser lourd sur les résultats à venir.", profiles: ["Passif·ve"], classes: ["2nde"], trimesters: T1 },
+  { id: 337, text: "Une année trop passive qui se conclut sur un bilan décevant. La prochaine rentrée devra s'ouvrir sur un engagement radicalement différent.", profiles: ["Passif·ve"], classes: ALL, trimesters: T3 },
+
+  // ── Encouragements ───────────────────────────────────────────────────────────
+  { id: 338, text: "En 6ème, les progrès du second trimestre sont très encourageants. L'élève prend confiance et commence à s'exprimer plus librement.", profiles: ["Encouragements"], classes: ["6ème"], trimesters: T2 },
+  { id: 339, text: "Belle fin de parcours. Les efforts fournis tout au long de l'année ont porté leurs fruits. Bonne chance pour le baccalauréat !", profiles: ["Encouragements"], classes: TERM, trimesters: T3 },
+
+  // ── Problématique ────────────────────────────────────────────────────────────
+  { id: 340, text: "Dès ce premier trimestre de 4ème, des comportements perturbateurs sont à signaler. Un cadre ferme a été posé pour la suite de l'année.", profiles: ["Problématique"], classes: ["4ème"], trimesters: T1 },
+  { id: 341, text: "Le comportement perturbateur de l'élève persiste au second trimestre. Sans changement rapide, des mesures supplémentaires seront nécessaires.", profiles: ["Problématique"], classes: LYCEE, trimesters: T2 },
+
+  // ── Discret·e mais sérieux·se ────────────────────────────────────────────────
+  { id: 342, text: "Au collège, ce profil discret mais appliqué est rassurant. Le travail régulier et sérieux finit toujours par porter ses fruits.", profiles: ["Discret·e mais sérieux·se"], classes: COLLEGE, trimesters: ALL },
+  { id: 343, text: "Au second trimestre de lycée, la discrétion de l'élève masque un travail sérieux et constant. Les résultats en témoignent.", profiles: ["Discret·e mais sérieux·se"], classes: LYCEE, trimesters: T2 },
+
+  // ── Bavard·e mais compétent·e ────────────────────────────────────────────────
+  { id: 344, text: "Dès le début de l'année au collège, l'aisance est évidente mais la retenue est à travailler. L'anglais est là : il faut canaliser cette énergie.", profiles: ["Bavard·e mais compétent·e"], classes: COLLEGE, trimesters: T1 },
+  { id: 345, text: "En première, les compétences en anglais sont indéniables. Il faut apprendre à intervenir au bon moment pour enrichir les échanges sans les monopoliser.", profiles: ["Bavard·e mais compétent·e"], classes: ["1ère"], trimesters: ALL },
+
+  // ── Défaitiste ────────────────────────────────────────────────────────────────
+  { id: 346, text: "Dès ce premier trimestre en 5ème, l'attitude défaitiste de l'élève est préoccupante. Oser essayer est la première étape vers la progression.", profiles: ["Défaitiste"], classes: ["5ème"], trimesters: T1 },
+  { id: 347, text: "Une fin d'année marquée par trop de résignation. L'élève a des ressources : il faut y croire et ne pas baisser les bras.", profiles: ["Défaitiste"], classes: ALL, trimesters: T3 },
+
+  // ── Moteur·rice et impliqué·e ────────────────────────────────────────────────
+  { id: 348, text: "En 6ème, l'enthousiasme de l'élève est communicatif et très précieux pour la classe. Un·e élève moteur·rice qui donne le ton dès la première année.", profiles: ["Moteur·rice et impliqué·e"], classes: ["6ème"], trimesters: ALL },
+  { id: 349, text: "Au second trimestre de lycée, l'implication de l'élève reste exemplaire. Cette énergie est un vrai moteur pour l'ensemble du groupe.", profiles: ["Moteur·rice et impliqué·e"], classes: LYCEE, trimesters: T2 },
+
+  // ── Participation régulière et pertinente ────────────────────────────────────
+  { id: 350, text: "Au collège, la participation régulière et de qualité de l'élève enrichit chaque séance. Les interventions sont toujours mesurées et pertinentes.", profiles: ["Participation régulière et pertinente"], classes: COLLEGE, trimesters: ALL },
+  { id: 351, text: "Fin d'année marquée par une participation exemplaire du début à la fin. L'élève aura animé les cours avec constance et intelligence.", profiles: ["Participation régulière et pertinente"], classes: ALL, trimesters: T3 },
+
+  // ── Bon niveau, participation à parfaire ─────────────────────────────────────
+  { id: 352, text: "Dès le début du lycée, le bon niveau est là. Il manque juste un peu d'audace pour s'exprimer davantage et valoriser ces acquis.", profiles: ["Bon niveau, participation à parfaire"], classes: LYCEE, trimesters: T1 },
+  { id: 353, text: "Le niveau est confirmé au second trimestre. Mais les rares interventions orales ne reflètent pas encore la réalité des compétences de l'élève.", profiles: ["Bon niveau, participation à parfaire"], classes: ALL, trimesters: T2 },
+
+  // ── Actif·ve mais irrégulier·ère ─────────────────────────────────────────────
+  { id: 354, text: "En 3ème, l'irrégularité de l'élève est un frein réel à la progression. La constance dans l'effort est l'objectif prioritaire de la fin d'année.", profiles: ["Actif·ve mais irrégulier·ère"], classes: ["3ème"], trimesters: ALL },
+  { id: 355, text: "Premier trimestre en dents de scie. L'élève montre des pics de motivation mais aussi des creux préoccupants. La régularité est à travailler d'urgence.", profiles: ["Actif·ve mais irrégulier·ère"], classes: ALL, trimesters: T1 },
+
+  // ── Moteur·rice mais parfois impatient·e ─────────────────────────────────────
+  { id: 356, text: "Au second trimestre, l'enthousiasme de l'élève reste intact mais l'impatience nuit aux échanges. Travailler l'écoute active sera déterminant.", profiles: ["Moteur·rice mais parfois impatient·e"], classes: COLLEGE, trimesters: T2 },
+  { id: 357, text: "Fin d'année dynamique mais marquée par quelques écarts liés à l'impatience. Un élément moteur qui gagnera à canaliser son énergie.", profiles: ["Moteur·rice mais parfois impatient·e"], classes: ALL, trimesters: T3 },
+
+  // ── Très impliqué·e, tend à monopoliser la parole ────────────────────────────
+  { id: 358, text: "Dès la 2nde, l'élève s'impose comme un·e participant·e très actif·ve. La maîtrise du tour de parole sera le prochain défi à relever.", profiles: ["Très impliqué·e, tend à monopoliser la parole"], classes: ["2nde"], trimesters: T1 },
+  { id: 359, text: "L'implication est totale mais prend parfois trop de place. Il faut apprendre à créer des espaces pour que les autres puissent s'exprimer.", profiles: ["Très impliqué·e, tend à monopoliser la parole"], classes: ALL, trimesters: T2 },
+
+  // ── Participatif·ve mais parfois trop discret·e ──────────────────────────────
+  { id: 360, text: "En 6ème, la timidité recule peu à peu. L'élève ose davantage s'exprimer au second trimestre : une belle évolution à encourager.", profiles: ["Participatif·ve mais parfois trop discret·e"], classes: ["6ème"], trimesters: T2 },
+  { id: 361, text: "Au lycée, la participation existe mais reste trop effacée. Les idées de l'élève méritent d'être partagées plus librement avec le groupe.", profiles: ["Participatif·ve mais parfois trop discret·e"], classes: LYCEE, trimesters: ALL },
+
+  // ── Engagé·e à l'écrit, réservé·e à l'oral ──────────────────────────────────
+  { id: 362, text: "En 4ème, les productions écrites sont solides. L'oral est le prochain défi : un peu de confiance permettrait de libérer cette expression retenue.", profiles: ["Engagé·e à l'écrit, réservé·e à l'oral"], classes: ["4ème"], trimesters: T2 },
+  { id: 363, text: "En terminale, la maîtrise à l'écrit est un vrai atout pour le baccalauréat. Développer l'oral permettrait de valoriser l'ensemble des compétences.", profiles: ["Engagé·e à l'écrit, réservé·e à l'oral"], classes: TERM, trimesters: T3 },
+
+  // ── Participe bien mais manque de confiance ──────────────────────────────────
+  { id: 364, text: "Au collège, les premières participations témoignent d'un bon niveau mais d'un manque de confiance évident. Il faut s'appuyer sur ses réussites.", profiles: ["Participe bien mais manque de confiance"], classes: COLLEGE, trimesters: T1 },
+  { id: 365, text: "Au second trimestre, la confiance progresse légèrement. Les interventions se font plus fréquentes : il faut continuer sur cette lancée.", profiles: ["Participe bien mais manque de confiance"], classes: ALL, trimesters: T2 },
+
+  // ── Moteur·rice, à progresser sur la précision ───────────────────────────────
+  { id: 366, text: "Fin de lycée dynamique et engagée. Il ne manque plus qu'un travail fin sur la précision linguistique pour atteindre un niveau encore plus abouti.", profiles: ["Moteur·rice, à progresser sur la précision"], classes: LYCEE, trimesters: T3 },
+
+  // ══ MULTI-PROFILS — IDs 367–416 ══════════════════════════════════════════════
+
+  { id: 367, text: "Un bilan de 3ème exemplaire. L'excellence atteinte est le fruit d'un travail sérieux et régulier sur toute l'année. Félicitations !", profiles: ["Excellent·e", "Travailleur·se"], classes: ["3ème"], trimesters: T3 },
+  { id: 368, text: "Au lycée, l'élève conjugue excellence et participation active. Chaque intervention élève le niveau de la classe et enrichit les échanges.", profiles: ["Excellent·e", "Participation régulière et pertinente"], classes: LYCEE, trimesters: ALL },
+  { id: 369, text: "Dès le premier trimestre, l'élève s'impose comme un élément d'exception : excellent·e et moteur·rice pour toute la classe.", profiles: ["Excellent·e", "Moteur·rice et impliqué·e"], classes: ALL, trimesters: T1 },
+  { id: 370, text: "En 5ème, le bon niveau est la juste récompense d'un travail régulier. L'élève construit ses compétences avec méthode et persévérance.", profiles: ["Bon niveau", "Travailleur·se"], classes: ["5ème"], trimesters: ALL },
+  { id: 371, text: "Le second trimestre marque une belle progression. Le bon niveau se confirme et les efforts supplémentaires commencent à porter leurs fruits.", profiles: ["Bon niveau", "Encouragements"], classes: ALL, trimesters: T2 },
+  { id: 372, text: "Fin de lycée satisfaisante. Le bon niveau de l'élève est le résultat d'un travail discret mais constant. Un profil fiable et solide.", profiles: ["Bon niveau", "Discret·e mais sérieux·se"], classes: LYCEE, trimesters: T3 },
+  { id: 373, text: "Premier trimestre en dessous des attentes. Les capacités sont là mais la passivité empêche leur expression. Un engagement plus actif est urgent.", profiles: ["Peut mieux faire", "Passif·ve"], classes: ALL, trimesters: T1 },
+  { id: 374, text: "En 4ème, l'irrégularité combinée à un manque d'investissement nuit clairement aux résultats. Une organisation plus rigoureuse s'impose.", profiles: ["Peut mieux faire", "Actif·ve mais irrégulier·ère"], classes: ["4ème"], trimesters: ALL },
+  { id: 375, text: "Le deuxième trimestre confirme une attitude résignée qui empêche de progresser. Il faut se battre contre ce découragement et croire en ses capacités.", profiles: ["Peut mieux faire", "Défaitiste"], classes: ALL, trimesters: T2 },
+  { id: 376, text: "En 6ème, malgré les difficultés, l'élève ne lâche pas. Ces efforts méritent d'être encouragés et accompagnés avec bienveillance.", profiles: ["En difficulté", "Encouragements"], classes: ["6ème"], trimesters: T2 },
+  { id: 377, text: "Dès le début du lycée, des difficultés se manifestent. Mais le sérieux avec lequel l'élève les affronte est très rassurant pour la suite.", profiles: ["En difficulté", "Travailleur·se"], classes: LYCEE, trimesters: T1 },
+  { id: 378, text: "Fin d'année difficile sur le plan académique et motivationnel. Il faut impérativement retrouver confiance et détermination avant la rentrée prochaine.", profiles: ["En difficulté", "Défaitiste"], classes: ALL, trimesters: T3 },
+  { id: 379, text: "En 2nde, le sérieux de l'élève se double d'une vraie aisance orale. Un profil très solide et rassurant pour la suite du lycée.", profiles: ["Travailleur·se", "À l'oral"], classes: ["2nde"], trimesters: ALL },
+  { id: 380, text: "Au second trimestre, le travail régulier au collège porte ses fruits. Le bon niveau obtenu est pleinement mérité.", profiles: ["Travailleur·se", "Bon niveau"], classes: COLLEGE, trimesters: T2 },
+  { id: 381, text: "Fin d'année couronnée par des efforts sincères et une belle progression. L'élève a su travailler avec régularité jusqu'au bout de l'année.", profiles: ["Travailleur·se", "Encouragements"], classes: ALL, trimesters: T3 },
+  { id: 382, text: "Dès le premier trimestre, l'élève brille par son aisance orale et sa participation constante. Un·e élève précieux·se pour la dynamique de classe.", profiles: ["À l'oral", "Participation régulière et pertinente"], classes: ALL, trimesters: T1 },
+  { id: 383, text: "Au lycée, l'élève est un·e véritable animateur·rice grâce à son aisance orale et son implication. Les cours s'en trouvent enrichis.", profiles: ["À l'oral", "Moteur·rice et impliqué·e"], classes: LYCEE, trimesters: ALL },
+  { id: 384, text: "En 3ème, l'élève est un·e expert·e de l'écrit. L'oral reste le défi de la rentrée prochaine, avec de solides bases rédactionnelles en atout.", profiles: ["À l'écrit", "Engagé·e à l'écrit, réservé·e à l'oral"], classes: ["3ème"], trimesters: T3 },
+  { id: 385, text: "Les productions écrites sont exemplaires, le tout dans une discrétion totale. Un profil sérieux et appliqué qui mérite d'être davantage valorisé.", profiles: ["À l'écrit", "Discret·e mais sérieux·se"], classes: ALL, trimesters: T2 },
+  { id: 386, text: "Au second trimestre de lycée, la passivité et le manque d'effort forment un duo préoccupant. Un changement radical d'attitude est attendu.", profiles: ["Passif·ve", "Peut mieux faire"], classes: LYCEE, trimesters: T2 },
+  { id: 387, text: "En 4ème, le bon niveau de l'élève peine à se traduire en participation. Cette discrétion involontaire est dommage : les connaissances sont là.", profiles: ["Passif·ve", "Bon niveau"], classes: ["4ème"], trimesters: ALL },
+  { id: 388, text: "Dès le premier trimestre en 5ème, la progression est perceptible. Le travail fourni commence à payer : il faut continuer sur cette lancée.", profiles: ["Encouragements", "Travailleur·se"], classes: ["5ème"], trimesters: T1 },
+  { id: 389, text: "Malgré les difficultés du second trimestre, la progression est encourageante. Cet état d'esprit positif est la clé pour redresser la situation.", profiles: ["Encouragements", "En difficulté"], classes: ALL, trimesters: T2 },
+  { id: 390, text: "En première, le profil discret mais compétent de l'élève est remarquable. Le bon niveau et le sérieux forment une combinaison très appréciable.", profiles: ["Discret·e mais sérieux·se", "Bon niveau"], classes: ["1ère"], trimesters: ALL },
+  { id: 391, text: "Dès le premier trimestre, l'élève se distingue par un travail écrit soigné et une discrétion de bon aloi. Un profil sérieux et efficace.", profiles: ["Discret·e mais sérieux·se", "À l'écrit"], classes: ALL, trimesters: T1 },
+  { id: 392, text: "Au second trimestre, l'aisance et l'enthousiasme de l'élève débordent parfois. Un peu de modération permettrait à tous de profiter des échanges.", profiles: ["Bavard·e mais compétent·e", "Très impliqué·e, tend à monopoliser la parole"], classes: COLLEGE, trimesters: T2 },
+  { id: 393, text: "Fin d'année animée. L'aisance et la motivation de l'élève sont de vrais atouts, mais l'impatience reste un point à travailler pour l'an prochain.", profiles: ["Bavard·e mais compétent·e", "Moteur·rice mais parfois impatient·e"], classes: ALL, trimesters: T3 },
+  { id: 394, text: "En 4ème, l'attitude défaitiste de l'élève l'empêche de progresser. Les capacités sont là : il faut les exploiter avec détermination et persévérance.", profiles: ["Défaitiste", "Peut mieux faire"], classes: ["4ème"], trimesters: T2 },
+  { id: 395, text: "La fin d'année montre des signes encourageants de dépassement de la résignation. Il faut continuer à y croire pour bien démarrer l'an prochain.", profiles: ["Défaitiste", "Encouragements"], classes: ALL, trimesters: T3 },
+  { id: 396, text: "Milieu d'année brillant. L'élève est un·e moteur·rice qui participe avec régularité et pertinence. Un profil précieux pour la dynamique de classe.", profiles: ["Moteur·rice et impliqué·e", "Participation régulière et pertinente"], classes: ALL, trimesters: T2 },
+  { id: 397, text: "En terminale, l'élève est un·e élément·e remarquable : excellence et implication au service du groupe jusqu'à l'épreuve du baccalauréat.", profiles: ["Moteur·rice et impliqué·e", "Excellent·e"], classes: TERM, trimesters: ALL },
+  { id: 398, text: "Fin d'année marquée par une participation exemplaire et un bon niveau constant. Un profil rassurant qui termine l'année sur une très belle note.", profiles: ["Participation régulière et pertinente", "Bon niveau"], classes: ALL, trimesters: T3 },
+  { id: 399, text: "Premier trimestre prometteur à l'écrit. Il faut maintenant oser s'exprimer à l'oral pour que le niveau réel se manifeste pleinement en classe.", profiles: ["Bon niveau, participation à parfaire", "Engagé·e à l'écrit, réservé·e à l'oral"], classes: ALL, trimesters: T1 },
+  { id: 400, text: "Au lycée, le bon niveau de l'élève ne se voit guère en classe. La discrétion est appréciable, mais une participation plus visible valoriserait ces acquis.", profiles: ["Bon niveau, participation à parfaire", "Discret·e mais sérieux·se"], classes: LYCEE, trimesters: ALL },
+  { id: 401, text: "Des signes de progrès encourageants au second trimestre. Si l'élève trouve la constance dans l'effort, les résultats seront au rendez-vous.", profiles: ["Actif·ve mais irrégulier·ère", "Encouragements"], classes: ALL, trimesters: T2 },
+  { id: 402, text: "Fin de 3ème décevante. L'irrégularité aura été le principal obstacle à une meilleure réussite. Une vraie régularité s'impose dès l'entrée au lycée.", profiles: ["Actif·ve mais irrégulier·ère", "Peut mieux faire"], classes: ["3ème"], trimesters: T3 },
+  { id: 403, text: "Dès le premier trimestre, l'élève dynamise la classe. L'enjeu est d'apprendre à canaliser cet élan pour que les échanges profitent à tous.", profiles: ["Moteur·rice mais parfois impatient·e", "Participation régulière et pertinente"], classes: ALL, trimesters: T1 },
+  { id: 404, text: "L'aisance à l'oral est indéniable et l'implication réelle. Apprendre à écouter les autres enrichirait encore la qualité des interactions en classe.", profiles: ["Moteur·rice mais parfois impatient·e", "À l'oral"], classes: LYCEE, trimesters: T2 },
+  { id: 405, text: "En 2nde, l'élève est omniprésent·e et très impliqué·e. Créer davantage d'espace pour les autres serait un signe de maturité supplémentaire.", profiles: ["Très impliqué·e, tend à monopoliser la parole", "Moteur·rice et impliqué·e"], classes: ["2nde"], trimesters: ALL },
+  { id: 406, text: "Le bon niveau se traduit progressivement en participation. Le second trimestre montre des progrès dans la prise de parole : il faut persévérer.", profiles: ["Participatif·ve mais parfois trop discret·e", "Bon niveau"], classes: ALL, trimesters: T2 },
+  { id: 407, text: "Fin de collège encourageante. La timidité recule et la confiance grandit. Un profil qui s'améliore et se libère progressivement au fil des mois.", profiles: ["Participatif·ve mais parfois trop discret·e", "Participe bien mais manque de confiance"], classes: COLLEGE, trimesters: T3 },
+  { id: 408, text: "En première, le sérieux de l'élève à l'écrit est impressionnant. L'oral reste le défi, mais le travail fourni laisse présager un progrès prochain.", profiles: ["Engagé·e à l'écrit, réservé·e à l'oral", "Travailleur·se"], classes: ["1ère"], trimesters: T2 },
+  { id: 409, text: "Très bonne année à l'écrit. Le bon niveau global et les solides compétences rédactionnelles sont de vrais atouts pour la suite du parcours.", profiles: ["Engagé·e à l'écrit, réservé·e à l'oral", "Bon niveau"], classes: ALL, trimesters: T3 },
+  { id: 410, text: "En 6ème, la confiance en soi est en construction. Les progrès sont encourageants et les participations, rares mais pertinentes, méritent d'être valorisées.", profiles: ["Participe bien mais manque de confiance", "Encouragements"], classes: ["6ème"], trimesters: ALL },
+  { id: 411, text: "Premier trimestre sérieux et appliqué. Malgré le manque de confiance, l'élève participe avec courage et travaille avec une régularité exemplaire.", profiles: ["Participe bien mais manque de confiance", "Travailleur·se"], classes: ALL, trimesters: T1 },
+  { id: 412, text: "L'implication et la participation sont exemplaires. Il reste à affiner la précision linguistique pour atteindre le niveau que cette motivation mérite.", profiles: ["Moteur·rice, à progresser sur la précision", "Participation régulière et pertinente"], classes: ALL, trimesters: T2 },
+  { id: 413, text: "Fin de lycée engagée et travaillée. La prochaine étape : soigner la précision de la langue pour hisser les productions au niveau du dynamisme affiché.", profiles: ["Moteur·rice, à progresser sur la précision", "Travailleur·se"], classes: LYCEE, trimesters: T3 },
+  { id: 414, text: "À mi-parcours de première, l'élève est clairement dans le haut du niveau. Les acquis sont solides et la progression régulière et encourageante.", profiles: ["Excellent·e", "Bon niveau"], classes: ["1ère"], trimesters: T2 },
+  { id: 415, text: "Premier trimestre satisfaisant à l'écrit. Le bon niveau général se traduit par des productions bien structurées et linguistiquement soignées.", profiles: ["Bon niveau", "À l'écrit"], classes: ALL, trimesters: T1 },
+  { id: 416, text: "Un niveau excellent, particulièrement visible à l'écrit. Oser davantage s'exprimer à l'oral permettrait de révéler pleinement cette maîtrise de la langue.", profiles: ["Excellent·e", "Engagé·e à l'écrit, réservé·e à l'oral"], classes: ALL, trimesters: T2 },
 ];
 
 export const BILANS: Bilan[] = [
